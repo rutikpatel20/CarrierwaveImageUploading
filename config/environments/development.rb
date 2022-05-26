@@ -71,19 +71,4 @@ Rails.application.configure do
   # Configuration for letter opener
   config.action_mailer.delivery_method = :letter_opener
   config.action_mailer.perform_deliveries = true
-
-  #to send email using gmail
-  # config.action_mailer.delivery_method = :smtp
-  # host = "localhost:3000" #replace with your own url
-  # config.action_mailer.default_url_options = { host: host }
-
-  # # SMTP settings for gmail
-  # config.action_mailer.smtp_settings = {
-  #   :address => "smtp.gmail.com",
-  #   :port => 587,
-  #   :user_name => "rutik.patel7049@gmail.com",
-  #   :password => "jhdfgfdjhghfjlgherfi",
-  #   :authentication => "plain",
-  #   :enable_starttls_auto => true,
-  # }
 end
